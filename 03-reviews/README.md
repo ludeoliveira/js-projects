@@ -1,5 +1,7 @@
-## Counter
+## Reviews 
 
-There is a counter set to 0 as its inicial value, and three buttons: *decrease*, *reset* and *increase*.
+There is an JavaScript array with objects wich contains a collection of informations about various persons. 
 
-When the *decrease* button is clicked, the counter will decrease by one. When the *increase* button is clicked, the counter will increase by one. The *reset* button set the counter's value back to zero. The counter changes its color. If the value is above zero, the color of the counter is going to be green, when it is less than zero, the color of the counter is red and black if the conter is reseted.
+These informations are rendered out as we click on one of the arrows, showing us the previous or the next person data collection.
+
+We also have a *show random person* button wich will choose randomly a person from the array and render out their information on the screen.
